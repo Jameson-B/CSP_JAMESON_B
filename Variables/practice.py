@@ -1,3 +1,7 @@
+# Jameson Bultez, Python Practice
+
+# Variables
+
 name = "Jameson"
 print(name)
 
