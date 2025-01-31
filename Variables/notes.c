@@ -1,8 +1,19 @@
 #include <stdio.h>
 
+int main(void){
+    printf("Hello World");
+    return 0;
+}
+
 char name[] = "Jameson";
-int age = 16;
-float pi = 3.14;
+
+int smallNumber = 16;
+
+int bigNumber = 234;
+
+char breakfast[] = "granola bar";
+
+
 
 int main(void){
     printf("Hello, my name is %s", "I am %d" "years old.");
