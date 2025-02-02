@@ -1,10 +1,17 @@
+// Jameson Bultez
+
+// Asks for the user's name then replies hello.
+
 #include <stdio.h>
 
 int main(void){
-     printf("Hello World");
+     char name[];
+
+     printf("What is your name?:");
+     scanf("s%", name);
+
+     printf("Hello, %s!\n, name);
+     
      return 0;
 }
 
-char name[];
-
-printf("What is your name?");
