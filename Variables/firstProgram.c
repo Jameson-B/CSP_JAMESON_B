@@ -1,10 +1,16 @@
+// Jameson Bultez, First Program C
+
+// Asks for the user's name then says hello.
+
 #include <stdio.h>
 
 int main(void){
-     printf("Hello World");
+
+     char name[];
+
+     printf("What is your name?");
+     
+
      return 0;
 }
 
-char name[];
-
-printf("What is your name?");
