@@ -14,7 +14,7 @@ print(70**8)
 print(70//8) # Integer division/truncate: returns nothing but the whole number.
 print(70%8) # Modulo/modulus/MOD: returns the remainder of the division.
 """
-
+'''
 num = 4
 print(num)
 
@@ -38,5 +38,12 @@ print(num)
 
 num %= 2
 print(num)
+'''
+
+pi = 3.14159
+
+print(f"{pi:.4f}")
+
+print(round(pi))
 
 
