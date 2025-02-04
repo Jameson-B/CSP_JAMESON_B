@@ -1,10 +1,16 @@
+# Jameson Bultez, Python Practice
+
+# Variables
+
 name = "Jameson"
+print(name)
 print("Jameson")
 
 smallNumber = 6
 print(smallNumber)
 
-largeNumber = 42
+largeNumber = 201
+print(largeNumber)
 print(largeNumber)
 
 breakfast = "banana"
