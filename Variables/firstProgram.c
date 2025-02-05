@@ -1,6 +1,13 @@
 // Jameson Bultez, First Program C
 
-int main(void) {
+# include <stdio.h>
 
-  return 0;
+char name[15];
+
+int main(void) {
+    printf("What is your name?:");
+    scanf("%s", name);
+    printf("Hello, %s. I've been expecting you. \n", name);
+
+    return 0;
 }
