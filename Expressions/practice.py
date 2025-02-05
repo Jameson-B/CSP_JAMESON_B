@@ -1,20 +1,28 @@
 # Jameson Bultez, Expressions Practice Python
 
-playerHealth = 7
-playerArmor = 6
-monsterPower = 24
-monsterWeakness = 8
-mapBonus = 4
+health = 7-24/8*4+6
+print(health)
 
-playerHealth = playerHealth - monsterPower / monsterWeakness * mapBonus + playerArmor
-print(playerHealth)
+power = 18/3-7+2*5
+print(power)
 
-#monsterHealth = monsterHealth / monsterWeakness - 
+attack = 6*4/12+72/8-9
+print(attack)
 
-print(18 / 3 - 7  + 2 * 5)
+armor = (17-6/2)+4*3
+print(armor)
 
-print(6 * 4 / 12 + 72 / 8 - 9)
+map = -2*(1*4-2/2)+(6+2-3)
+print(map)
 
-print(17 - 6 / 2 + 4 * 3)
+spongebob = -1*((3-4*7)/5)-2*24/6
+print(spongebob)
 
-print(-2*(1 * 4 - 2 / 2) + 6 + 2 - 3)
+shelter = (3*5**2/15)-(5-2**2)
+print(shelter)
+
+bluey = (1**4*2**2+3**3)-2**5/4
+print(bluey)
+
+magic = (22/2-2*5)**2+(4-6/6)**2
+print(magic)
