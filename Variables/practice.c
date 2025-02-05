@@ -5,34 +5,34 @@
 int main() {
   
 char name[] = "Jameson";
-printf("%s", name);
+printf("%s \n", name);
 
 int smallNumber = 3;
-printf("%d", smallNumber);
+printf("%d \n", smallNumber);
 
 int largeNumber = 130;
-printf("%d", largeNumber);
+printf("%d \n", largeNumber);
 
 char breakfast[] = "banana";
-printf("%s", breakfast);
+printf("%s \n", breakfast);
 
 char favColor[] = "blue";
-printf("%s", favColor);
+printf("%s \n", favColor);
 
 char school[] = "UCAS";
-printf("%s", school);
+printf("%s \n", school);
 
 int currentYear = 2025;
-printf("%d", currentYear);
+printf("%d \n", currentYear);
 
 char eyeColor[] = "brown";
-printf("%s", eyeColor);
+printf("%s \n", eyeColor);
 
 int age = 16;
-printf("%d", age);
+printf("%d \n", age);
 
-char favSubject[] = "geography"
-printf("%s", favSubject);
+char favSubject[] = "geography";
+printf("%s \n", favSubject);
   
   return 0;
 }
