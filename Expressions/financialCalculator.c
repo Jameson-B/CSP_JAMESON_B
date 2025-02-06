@@ -1,4 +1,4 @@
-// Jameson Bultez, TEMPLATE
+// Jameson Bultez, Financial Calculator C
 
 #include <stdio.h>
 
