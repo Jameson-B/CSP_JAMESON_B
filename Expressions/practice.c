@@ -5,33 +5,32 @@
 
 int main(void) {
 
-int health = 7-24/8*4+6;
-printf(health)
+int paycheck = 7-24/8*4+6;
+printf("%d \n", paycheck);
 
-int power = 18/3-7+2*5;
-printf(power)
+int budget = 18/3-7+2*5;
+printf("%d \n", budget);
 
-int attack = 6*4/12+72/8-9;
-print(attack)
+int price = 6*4/12+72/8-9;
+printf("%d \n", price);
 
-int armor = (17-6/2)+4*3;
-print(armor)
+int balance = (17-6/2)+4*3;
+printf("%d \n", balance);
 
-int map = -2*(1*4-2/2)+(6+2-3);
-print(map)
+int mileage = -2*(1*4-2/2)+(6+2-3);
+printf("%d \n", mileage);
 
-int spongebob = -1*((3-4*7)/5)-2*24/6;
-print(spongebob)
+int debt = -1*((3-4*7)/5)-2*24/6;
+printf("%d \n", debt);
 
-int shelter = (3*5**2/15)-(5-2**2);
-print(shelter)
+int credit = (3*pow(5,2)/15)-(5-pow(2,2));
+printf("%d \n", credit);
 
-int bluey = (1**4*2**2+3**3)-2**5/4;
-print(bluey)
+int investments = (pow(1,4)*pow(2,2)+pow(3,3))-pow(2,5)/4;
+printf("%d \n", investments);
 
-int magic = (22/2-2*5)**2+(4-6/6)**2;
-print(magic)
-
+int numberOfFriends = pow((22/2-2*5),2)+pow((4-6/6),2);
+printf("%d \n", numberOfFriends);
 
     return 0;
 }
