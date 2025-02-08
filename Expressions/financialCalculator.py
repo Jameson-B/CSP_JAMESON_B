@@ -46,22 +46,22 @@ percentSpending = round(spending/income*100, 1)
 print("")
 
 # Your rent is $XX.XX, which is XX% of your income (print statement).
-print("Your rent is $", rent, ", which is", percentRent, "percent of your income.")
+print("Your rent is $", rent, ", which is", percentRent, "%", "of your income.")
 
 # Your utilities is $XX.XX, which is XX% of your income (print statement).
-print("Your utilities cost $", utilities, ", which is", percentUtilities, "percent of your income.")
+print("Your utilities cost $", utilities, ", which is", percentUtilities, "%", "of your income.")
 
 # Your groceries is $XX.XX, which is XX% of your income (print statement).
-print("Your groceries cost $", groceries, ", which is", percentGroceries, "percent of your income.")
+print("Your groceries cost $", groceries, ", which is", percentGroceries, "%", "of your income.")
 
 # Your transportation is $XX.XX, which is XX% of your income (print statement).
-print("Your transportation costs $", transport, ", which is", percentTransport, "percent of your income.")
+print("Your transportation costs $", transport, ", which is", percentTransport, "%", "of your income.")
 
 # Your savings is $XX.XX, which is XX% of your income (print statement).
-print("Your savings are $", savings, ", which is", percentSavings, "percent of your income.")
+print("Your savings are $", savings, ", which is", percentSavings, "%", "of your income.")
 
 # Your spending is $XX.XX, which is XX% of your income (print statement).
-print("Your spending is $", spending, ", which is", percentSpending, "percent of your income. \n")
+print("Your spending is $", spending, ", which is", percentSpending, "%", "of your income. \n")
 
 # print statement that thanks the user and ends the conversation.
 print("Thank you for using the monthly financial calculator. Spend wisely!")
