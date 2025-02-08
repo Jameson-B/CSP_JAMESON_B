@@ -81,7 +81,7 @@ int main(void) {
      printf("Your savings are $%.2f, which is 10.0%% of your income. \n\n", savings);
 
      // Your spending is $XX.XX, which is XX% of your income (printf statement).
-     printf("Your spending is $%.2f, which is %.1f%% of your income. \n\n", spending, percentSpending);
+     printf("You have $%.2f left over to spend, which is %.1f%% of your income. \n\n", spending, percentSpending);
 
      // printf statement that thanks the user and ends the conversation.
      printf("Thank you for using the Monthly Financial Calculator (MFC), Bedrock Edition. Spend wisely! \n\n");
