@@ -46,9 +46,4 @@ print(len(sentence))
 
 start = sentence.find("fox")
 length = sentence.find("brown")
-print(sentence[start:start+length])
-
-
-
-
-german = "Wie geht es Ihnen?"
+print(sentence[start : start + length])
