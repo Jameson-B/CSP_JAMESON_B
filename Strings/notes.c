@@ -7,6 +7,7 @@ char subject[50];
 char name[] = "Victoria";
 char sentence[] = "The quick brown fox jumps over the lazy dog.";
 
+
 int main(void){
      
     // printf("What class are you in? \n");
@@ -28,13 +29,19 @@ int main(void){
     char one[] = "Hello ";
     char two[] = "World!";
     char three[] = "Welcome to my program. ";
-    printf("%s \n", one);
+    //printf("%s \n", one);
 
-    strcat(one, two); // only concatenate two strings at a time.
-    printf("%s \n", one);
+    //strcat(one, two); // only concatenate two strings at a time.
+    //printf("%s \n", one);
 
-    strcat(three, one); // first parameter in parantheses is set to new variable.
-    printf("%s \n", three);
+    //strcat(three, one); // first parameter in parantheses is set to new variable.
+    //printf("%s \n", three);
+    char mario[] = "hello ";
+    char luigi[] = "world";
+
+    strcat(mario, luigi);
+    printf("%s", mario);
+    
    
 
     return 0;

@@ -30,7 +30,7 @@
 
 # lower(): converts a string to all lowercase.
 
-# strip():
+# strip(): deletes spaces around the string.
 
 note = "Vienna's class"
 
