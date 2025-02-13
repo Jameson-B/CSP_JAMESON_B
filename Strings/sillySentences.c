@@ -13,7 +13,7 @@ int main(void){
 
     // Print introduction.
 
-    printf("Welcome to Silly Sentences: C Edition. \nEnter the words the computer asks for and it will write a story with them. \n");
+    printf("Welcome to Silly Sentences: Bedrock Edition. \nEnter the words the computer asks for and it will write a story with them. \n");
 
     // Set word variables to user inputs.
 
