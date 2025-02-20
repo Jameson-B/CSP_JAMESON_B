@@ -1,9 +1,20 @@
 # Jameson Bultez, First Program Python
 
-# Asks for the user's name then says hello.
+# Takes in a name and returns string "Hello, (name)."
+def hey_you(name):
+    return f"Hello, {name}."
 
-print("Welcome to your destiny!")
+# Asks for user's first name.
+user_name = input("What be thy first name?:")
 
-name = input("What is your name? >")
+# Prints "Hello, (user_name)."
+print(hey_you(user_name))
 
-print("Hello,", name)
+# Introduces other print statments.
+print("These are some other people:")
+
+# Prints additional hello statements.
+print(hey_you("Jacob"))
+print(hey_you("Sarah"))
+print(hey_you("Scott"))
+print(hey_you("Hannah"))
