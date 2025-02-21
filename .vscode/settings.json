@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "firstProgram.C": "cpp"
+        "firstProgram.C": "cpp",
+        "helloWorldUpdate.C": "cpp"
     }
 }

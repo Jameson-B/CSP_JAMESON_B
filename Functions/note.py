@@ -10,12 +10,17 @@
 
 # snake_case
 
+def subtract(one, two):
+    difference = one - two
+    return difference
+
+answer = subtract(6, 8)
+print(answer)
 
 number = int(input("Please tell me a number:\n"))
 integer = int(input("Please tell me another number:\n"))
 
 def add(numOne, numTwo):  
-    # print(numOne + numTwo)
     return numOne + numTwo
 
 print(add(5, 10))
