@@ -24,6 +24,7 @@ else: # If condition is false...
     
 #5. What kind of statement do you use if you have more than 2 needed outcomes?
     # Less likely to more likely.
+    # The perfect couple name is elif!
 num = float(input("Enter one number:\n"))
 if num == 0:
     print("And then there were none.")
@@ -66,22 +67,24 @@ if num < 10 or num > 5:
     print("This is a number.")
     # not
 if not num < 10: # Checks if FALSE.
-    print("This is number is greater than or equal to 10.")
+    print("This number is greater than or equal to 10.")
 
 #8. What are logical operators for?
     # Allows the code to handle more complex conditionals.
 
 #9. What does a nested conditional statement do?
+    # You can nest as many conditionals as you want, but you should never go past three, because it gets confusing and hard to read.
+    # An example of using nested conditionals is checking for username and password. You wouldn't even check for password if the username is incorrect. The compiler doesn't have to worry about it.
 if num < 10:
     if num == 8:
         print("This number prints 8.")
     else:
-        print("The number is less than 10.")
+        if num == 4:
+            print("There are only enough cookies left for me...sorry...")
+        else:
+            print("The number is less than 10.")
 else:
-    print("The number is larger than 10.")
+    print("The number is greater than or equal to 10.")
 
-# How do you write an if statement in C?
-# How do you write else statements in C?
-# How do you write elif/ else if statements in C?
-# How do you write the 3 logical operators in C?
+
 
