@@ -23,10 +23,10 @@ hour = local_time.tm_hour # 24-hour time (0:00-23:59)
 if hour == 12:
     print("Good noon!")
 elif 0 <= hour < 12:
-    print("Good mornin'! Good mornin'! It's nice to stay up late.")
-elif 12 <= hour < 5:
-    print("'Afternoon!")
-elif 5<= hour < 9:
-    print("What a lovely evening.")
+    print("Good morning.")
+elif 12 <= hour < 17:
+    print("Good afternoon.")
+elif 17 <= hour < 21:
+    print("Good evening.")
 else:
-    print("Rock-a-bye, coder, in their bedroom. When the code runs, the compiler will stop. When the code breaks, the coder will fall, and down comes coder, PC and all...")
+    print("Good night.")
