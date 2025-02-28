@@ -4,15 +4,12 @@ import time
 
 # First instance of time in programming
 first_time = time.gmtime # Greenwhich Mean Time
-# print(first_time)
 
 # Current time in seconds
 current = time.time()
-# print(time) # seconds sinec January 1, 1970, 0:00
 
 # Current date and time like we noramlly see it
 now = time.ctime(current)
-# print(now)
 
 # Get just a part of the time
 local_time = time.localtime(current)
