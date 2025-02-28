@@ -10,6 +10,8 @@
 char name[50] = "LaRose";
 int num = 12;
 float pi = 3.1415926535;
+int extra = 11 % 2;
+float koalas = 23.6;
 
 // Arithmatic operators are the same in C as in Python, except for the exponenents operator, which is "pow".
 
@@ -20,6 +22,13 @@ int main(void){
      // printf("%.10f\n", pi);
      // printf("%f", equation);
      // printf("%f", expression);
-     printf((int)6+9/2);
+     // printf((int)6+9/2);
+
+     printf("%d\n", extra);
+
+     floor(koalas);
+
+     printf("%f\n", koalas);
+
      return 0;
 }

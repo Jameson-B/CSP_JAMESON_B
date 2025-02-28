@@ -18,7 +18,7 @@ int main(void){
 
     struct tm * tm_struct = localtime(&now);
     int hour = tm_struct->tm_hour; // 24-hour time (0:00-23:59)
-    
+
     // Print greeting based on time of day.
     if (hour == 12) {
         printf("Good noon!");
@@ -31,6 +31,7 @@ int main(void){
     } else {
         printf("Good night.");
     }
+
         
     return 0;
 }
