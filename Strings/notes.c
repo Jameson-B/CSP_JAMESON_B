@@ -8,7 +8,7 @@ char name[] = "Victoria";
 char sentence[] = "The quick brown fox jumps over the lazy dog.";
 
 
-int main(void){
+int main(void) {
      
     // printf("What class are you in? \n");
     // scanf("%s", subject);
@@ -26,6 +26,7 @@ int main(void){
     // printf("%lu \n", sizeof(sentence)); // starts counting at 0
     // printf("%d \n", strlen(sentence)); // starts counting at 1
 
+    /*
     char one[] = "Hello ";
     char two[] = "World!";
     char three[] = "Welcome to my program. ";
@@ -41,8 +42,7 @@ int main(void){
 
     strcat(mario, luigi);
     printf("%s", mario);
-    
+    */
    
-
     return 0;
 }
