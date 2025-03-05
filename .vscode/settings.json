@@ -2,6 +2,7 @@
     "files.associations": {
         "firstProgram.C": "cpp",
         "helloWorldUpdate.C": "cpp",
-        "math.h": "c"
+        "math.h": "c",
+        "stdio.h": "c"
     }
 }

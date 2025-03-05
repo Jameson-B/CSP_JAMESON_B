@@ -3,7 +3,7 @@
 # Fruit Loops yum yum
 
 #1. What is a loop?
-    # A section of code 
+    # A section of code that rep
 #2. What are the two types of loops?
     # For Loop
 nums = [12,3,66,7,33,2]
@@ -68,6 +68,3 @@ while x <= 20: # Infinite Loop
         x += 1
 # continue moves on to the next iteration
 
-#8. How do you make lists in C?
-#9. How do you make for loops in C?
-#10. How do you make while loops in C?
