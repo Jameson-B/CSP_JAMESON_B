@@ -9,7 +9,7 @@
 nums = [12,3,66,7,33,2]
 
 for num in nums:
-        print(num)
+    print(num)
 
     # While Loop
 x = 0
