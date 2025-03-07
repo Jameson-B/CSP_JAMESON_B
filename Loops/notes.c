@@ -1,10 +1,14 @@
 // Jameson Bultez, Loops Notes C
 
 #include <stdio.h>
-
+# include <math.h>
 
 
 int main(void){
+
+     float benchmark = 2.9;
+     round(benchmark);
+     printf("%f\n", benchmark);
 
      //1. What is a loop?
           // a section of code that repeats.
