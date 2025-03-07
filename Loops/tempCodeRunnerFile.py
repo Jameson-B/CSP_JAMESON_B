@@ -1,11 +1,9 @@
-
-#What is a loop? 
-What are the two types of loops?
-What is iteration
-What are lists? 
-How do you make lists in python? 
-How do you make for loops in python? 
-How do you make while loops in python?
-How do you make lists in C?
-How do you make for loops in C?
-How do you make while loops in C?
+x = 1
+for x in range(1, 51, 1):
+    if x % 3 == 0 and x % 5 == 0:
+        print("FizzBuzz")
+    elif x % 3 == 0:
+        print("Fizz")
+    elif x % 5 == 0:
+        print("Buzz")
+    else:
