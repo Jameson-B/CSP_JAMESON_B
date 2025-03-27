@@ -1,4 +1,4 @@
-# Hang Man Python Jameson, Robert, Jasper, David.
+ #Hang Man Python Jameson, Robert, Jasper, David.
 
 import random
   
@@ -89,6 +89,8 @@ while attempts > 0:
            
     if all(letter in guessed_letters for letter in correct_word):  
         print("Congratulations! You've guessed the word:", correct_word)  
+def end_statement():
 
-print("Sorry! The word was:", correct_word)
-print("Here Lies your guess: 🪦 2025-2025") 
+    print("Sorry! The word was:", correct_word)
+    print("Here Lies your guess: 🪦 2025-2025")
+end_statement()
