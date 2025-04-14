@@ -4,5 +4,6 @@
         "helloWorldUpdate.C": "cpp",
         "math.h": "c",
         "stdio.h": "c"
-    }
+    },
+    "liveServer.settings.port": 5501
 }
