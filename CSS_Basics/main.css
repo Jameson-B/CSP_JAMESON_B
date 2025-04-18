@@ -1,0 +1,23 @@
+*{
+    background-color: antiquewhite;
+    color: rgb(255, 0, 234);
+    font-family: Papyrus, "Lucida Handwriting", monospace;
+    
+}
+p{
+    background-color: wheat;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+#content{
+    display: grid
+    grid-template-columns: 1fr 3fr;
+}
+/*css grid structure
+flexbox to form smaller structures yas*/
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
