@@ -12,7 +12,7 @@ p{
     margin: 10px;
 }
 #content{
-    display: grid
+    display: grid;
     grid-template-columns: 1fr 3fr;
 }
 /*css grid structure
@@ -20,4 +20,9 @@ flexbox to form smaller structures yas*/
 #main{
     display: flex;
     flex-wrap: wrap;
+}
+#no{
+    display: block;
+    margin: auto;
+    width: 50%;
 }

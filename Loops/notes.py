@@ -3,7 +3,7 @@
 # Fruit Loops yum yum
 
 #1. What is a loop?
-    # A section of code that rep
+    # A section of code that repeats
 #2. What are the two types of loops?
     # For Loop
 nums = [12,3,66,7,33,2]
@@ -43,6 +43,7 @@ print(children)
     # Items with correct data types.
     # Comma between each item.
     # Can hold different data types in one list.
+    
 #6. How do you make for loops in python?
 for child in children:
        print(child)
