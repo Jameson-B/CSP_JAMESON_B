@@ -1,13 +1,22 @@
 
-*{
+body{
     background-color: bisque;
     color: navy
 }
     
 img{
-    height: 200px;
+    width: 10%;
 }
 
 h1{
     text-align: center;
+}
+
+#quote{
+    font-style: italic;
+}
+
+#img-credit{
+    font-size: x-small;
+    font-style: italic;
 }
