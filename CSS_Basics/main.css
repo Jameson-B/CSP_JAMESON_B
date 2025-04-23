@@ -11,6 +11,7 @@ p{
     padding: 10px;
     margin: 10px;
 }
+
 #content{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -26,3 +27,4 @@ flexbox to form smaller structures yas*/
     margin: auto;
     width: 50%;
 }
+
