@@ -1,9 +1,10 @@
-*{
+body{
     background-color: antiquewhite;
     color: rgb(255, 0, 234);
     font-family: Papyrus, "Lucida Handwriting", monospace;
     
 }
+/*
 p{
     background-color: wheat;
     height: 150px;
@@ -11,13 +12,28 @@ p{
     padding: 10px;
     margin: 10px;
 }
+*/
 
+img{
+    height: 250px
+}
+
+#box{
+    background-color:blueviolet;
+    height: 75px;
+    width: 75px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px
+}
+
+/*
 #content{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
-/*css grid structure
-flexbox to form smaller structures yas*/
+css grid structure
+flexbox to form smaller structures yas
 #main{
     display: flex;
     flex-wrap: wrap;
@@ -27,4 +43,4 @@ flexbox to form smaller structures yas*/
     margin: auto;
     width: 50%;
 }
-
+*/
