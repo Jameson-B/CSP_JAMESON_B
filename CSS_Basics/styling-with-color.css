@@ -1,61 +1,71 @@
 body{
     background-color: antiquewhite;
-    color: rgb(255, 0, 234);
+    color: brown;
     font-family: Papyrus, "Lucida Handwriting", monospace;
     
 }
-/*
-p{
-    background-color: wheat;
-    height: 150px;
-    width: 150px;
-    padding: 10px;
-    margin: 10px;
-}
-*/
-
-img{
-    height: 250px
-}
 
 
-#complementary{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+#boxes{
     display: flex;
-    flex-wrap: wrap; 
 }
 
-
-#box{
-   
-    height: 75px;
-    width: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
+#box-holder{
+    height: 250px;
+    width: 200px;
     padding: 5px;
-    
+    background-color: lightyellow;
     border-radius: 3px;
     margin: 5px;
- 
 }
 
-/*
-#content{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-css grid structure
-flexbox to form smaller structures yas
-#main{
+.box{
+    height: 45px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    margin: 5px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-#no{
-    display: block;
-    margin: auto;
-    width: 50%;
+
+
+
+#c1{
+    background-color: rgb(255, 109, 109);
 }
-*/
+
+#c2{
+    background-color: rgb(92, 216, 92);
+}
+
+#a1{
+    background-color: rgb(255, 169, 0);
+}
+
+#a2{
+    background-color: rgb(255, 210, 0);
+}
+
+#a3{
+    background-color: rgb(255, 174, 110);
+}
+
+#t1{
+    background-color: rgb(237, 41, 144);
+}
+
+#t2{
+    background-color: rgb(91, 211, 106);
+}
+
+#t3{
+    background-color: rgb(250, 255, 44);
+    color: gray
+}
+
+
+
