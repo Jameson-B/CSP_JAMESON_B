@@ -24,5 +24,25 @@ img{
     border-radius: 3px;
     padding: 5px;
     margin: 3px;
-    text-align: center;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#content{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 20% 80%;
+    column-gap: 5px;
+}
+
+#top-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-wrapper{
+    display: flex;
+    justify-content: center;
 }
