@@ -1,0 +1,59 @@
+body{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#page-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+.profile{
+    background-color: beige;
+    width: 50%;
+    height: 800px;
+    border-radius: 5px;
+    border: 2px none lime;
+    padding: 3px;
+    margin: 5px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: space-evenly;
+
+}
+
+.character-title{
+    background-color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40pt;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+    width: 50%
+}
+
+.character-quote{
+    background-color: darkred;
+    font-style: italic;
+    width: 50%;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.character-description{
+    background-color: grey;
+    width: 50%;
+    color: brown;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.character-img{
+    width: 50%;
+    padding: 3px;
+    margin: 5px;
+}
