@@ -1,7 +1,9 @@
-*{
+body{
     background-color: antiquewhite;
     color: chocolate;
-    font-family: serif, sans-serif, monospace, cursive, fantasy;
+    font-family: cursive, fantasy, sans-serif, monospace, serif;
+    font-weight: 400;
+    font-style: normal;
     /*
     1. serif
     2. sans serif
@@ -9,4 +11,38 @@
     4. cursive
     5. fantasy
     */
+}
+
+img{
+    width: 200px;
+}
+
+#box{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 3px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#content{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 20% 80%;
+    column-gap: 5px;
+}
+
+#top-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-wrapper{
+    display: flex;
+    justify-content: center;
 }
