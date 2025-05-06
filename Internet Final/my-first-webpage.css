@@ -84,8 +84,22 @@ p{
    padding: 10px;
 }
 
- /*
-#Iroh-profile{
-
+#hidden-paragraph{
+    display: none;
+    justify-self: center;
 }
-*/
+
+.italic{
+    font-style: italic;
+}
+
+#button-and-paragraph{
+    display: grid;
+    grid-template-rows: auto 200px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#toggle-button{
+    width: auto;
+}
