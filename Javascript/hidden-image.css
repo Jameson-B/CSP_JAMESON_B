@@ -1,0 +1,46 @@
+body{
+    background-color: cornflowerblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: max-content;
+}
+
+h2{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: max-content;
+}
+
+p{
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: max-content;
+}
+
+img{
+    width: 200px;
+    margin: 20px;
+}
+
+ul{
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: max-content;
+}
+
+#hidden-image{
+    display: none;
+}
