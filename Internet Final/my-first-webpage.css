@@ -2,56 +2,72 @@ body{
     background-color: antiquewhite;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
+p{
+    text-indent: 2em;
+}
 
 #page-title{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.profile-card{
-    background-color: beige;
-   
-    border-radius: 5px;
-    border: 2px none lime;
-    
+.profile{
     display: grid;
-    grid-template-columns: 12.5% 12.5% 1fr 1fr 12.5% 12.5%;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(3, auto);
+    width: 600px;
+    justify-self: center;
+
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    
+    color: brown;
+    background-color: beige;
 
 }
 
-.character-title{
-    background-color: gold;
-    color: orange;
+.title{
+    grid-area: 1 / 1 / 2 / 2;
+    width: auto;
+
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40pt;
+
+    border-width: 2px;
+    border-style: none;
     border-radius: 3px;
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-
-
+    padding: 5px;
+    margin: 5px;
+    background-color: orange;
 }
 
-.character-quote{
-    background-color: darkred;
+.quote{
+    grid-area: 2 / 1 / 3 / 2;
     font-style: italic;
     border-radius: 3px;
-    grid-column: 3/4;
-    grid-row: 2/3;
+    
 }
 
-.character-description{
-    background-color: grey;
-    color: brown;
+.description{
+    grid-area: 3 / 1 / 4 / 2;
     border-radius: 3px;
-    grid-column: 3/4;
-    grid-row: 3/4;
+   
 }
 
-.character-img{
-   border: 1px solid brown;
-   grid-column: 4/5;
-   grid-row: 1/4;
+.image{
+   grid-area: 1 / 2 / 4 / 3;
+   align-self: center;
    justify-self: center;
+   padding-left: 20px;
 }
+
+ /*
+#Iroh-profile{
+
+}
+*/
