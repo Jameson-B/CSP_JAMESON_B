@@ -5,6 +5,67 @@ body{
 
 }
 
-p{
-    text-indent: 2em;
+.page-title{
+    background-color: gold;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: max-content
 }
+
+.paragraph{
+    width: 50%;
+    text-align: justify;
+    line-height: 1.75em;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.image-grandmother{
+    width: max-content;
+    display: flex;
+    flex-flow: row;
+    padding: 20px;
+    margin: 20px;
+    background-color: salmon;
+    border-radius: 20px;
+}
+
+.image-mother{
+    width:max-content;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: purple;
+}
+
+.image-child{
+    grid-row: 1 / 1;
+    grid-column: 1/1;
+    height: 200px;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-caption{
+    grid-row: 2/2;
+    grid-column: 1/1;
+    text-wrap: wrap;
+
+    padding: 20px;
+    margin: 10px;
+    margin-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: lightpink;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+}
+
