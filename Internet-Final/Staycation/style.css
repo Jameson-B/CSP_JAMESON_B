@@ -1,7 +1,8 @@
 
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: lightblue;   
+    background-color: lightblue;
+    padding: 20px;
 }
 
 p{
@@ -13,9 +14,14 @@ p{
 div{
     display: flex;
     flex-flow: column wrap;
-    background-color: beige;
-    padding: 50px;
+    gap: 20;
+    padding: 20px;
     border-radius: 10px;
+    background-color: beige;
+}
+
+.page-container{
+    background-color: azure; 
 }
 
 .page-title{
@@ -32,21 +38,19 @@ div{
 }
 
 .card-container{
-    display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-self: center;
+    width: max-content;
     background-color: cadetblue;
-    padding: 20px;
-    border-radius: 10px;
 }
 
 figure{
-    display: flex;
-    flex-flow: column wrap;
-    width:max-content;
+    width: max-content;
+    justify-content: space-between;
     background-color: pink;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
 
 img{
@@ -66,12 +70,8 @@ cite{
 }
 
 .list-container{
-    display: flex;
     flex-flow: column wrap;
-    gap: 20px;
     background-color: lightskyblue;
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .list-header{
@@ -87,7 +87,18 @@ ol{
     line-height: 1.5;
 }
 
-.collapsible-content{
+#collapsible-container{
+    background-color: seagreen;
+}
+
+button{
+    background-color: mediumseagreen;
+    padding: 20px;
+    border: 2px solid darkolivegreen;
+    border-radius: 10px;
+}
+
+#collapsible-content{
     display: none;
 }
 

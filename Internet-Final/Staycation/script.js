@@ -16,16 +16,13 @@ function resetFigureOnLeave() {
 
 let button = document.getElementById("collapsible-button");
 let content = document.getElementById("collapsible-content");
-let buttonClicked = false;
 
 function showHideContent() {
-    if (buttonClicked == false){
-        buttonClicked = true;
+    if (content.style.display === "none") {
         button.textContent = "Hide";
-        content.style.display = flex;
+        content.style.display = "block";
     } else {
-        buttonClicked = false;
-        buttonClicked = false;
         button.textContent = "Show";
+        content.style.display = "block"
     }
 }
