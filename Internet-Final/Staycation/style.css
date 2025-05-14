@@ -43,6 +43,7 @@ div{
 figure{
     display: flex;
     flex-flow: column wrap;
+    width:max-content;
     background-color: pink;
     padding: 20px;
     border-radius: 10px;
@@ -84,6 +85,10 @@ ol{
     padding: 30px;
     border-radius: 10px;
     line-height: 1.5;
+}
+
+.collapsible-content{
+    display: none;
 }
 
 
