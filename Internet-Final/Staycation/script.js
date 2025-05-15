@@ -20,9 +20,9 @@ let content = document.getElementById("collapsible-content");
 function showHideContent() {
     if (content.style.display === "none") {
         button.textContent = "Hide";
-        content.style.display = "block";
+        content.style.display = "flex";
     } else {
         button.textContent = "Show";
-        content.style.display = "block"
+        content.style.display = "none";
     }
 }

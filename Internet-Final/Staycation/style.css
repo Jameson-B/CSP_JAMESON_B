@@ -14,8 +14,9 @@ p{
 div{
     display: flex;
     flex-flow: column wrap;
-    gap: 20;
+    gap: 10px;
     padding: 20px;
+    margin: 10px;
     border-radius: 10px;
     background-color: beige;
 }
@@ -25,14 +26,23 @@ div{
 }
 
 .page-title{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: goldenrod;
-    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.authorship{
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    margin: 10px;
     border-radius: 10px;
 }
 
 .intro-text{
-    background-color: darkcyan;
+    background-color: lightgoldenrodyellow;
     padding: 20px;
     border-radius: 10px;
 }
@@ -46,9 +56,11 @@ div{
 }
 
 figure{
+    display: flex;
+    flex-flow: column wrap;
     width: max-content;
-    justify-content: space-between;
-    background-color: pink;
+    gap: 30px;
+    background-color: lightgoldenrodyellow;
     padding: 20px;
     border-radius: 10px;  
 }
@@ -59,7 +71,7 @@ img{
 }
 
 figcaption{
-    background-color: forestgreen;
+    background-color: lightblue;
     padding: 20px;
     border-radius: 10px;
     width: 200px;
@@ -71,35 +83,38 @@ cite{
 
 .list-container{
     flex-flow: column wrap;
-    background-color: lightskyblue;
+    background-color: cadetblue;
 }
 
 .list-header{
-    background-color: lightsteelblue;
+    background-color: lightblue;
     padding: 20px;
     border-radius: 10px;
 }
 
 ol{
-    background-color: aquamarine;
+    background-color: lightgoldenrodyellow;
     padding: 30px;
     border-radius: 10px;
     line-height: 1.5;
 }
 
 #collapsible-container{
-    background-color: seagreen;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: cadetblue;
 }
 
 button{
-    background-color: mediumseagreen;
+    background-color: lightblue;
     padding: 20px;
-    border: 2px solid darkolivegreen;
+    border: none;
     border-radius: 10px;
 }
 
 #collapsible-content{
     display: none;
+    background-color: lightgray;
 }
 
 
